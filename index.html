@@ -5,23 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CustomStuffs.Official</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f7f7f7;
+      background-color: #f4f4f4;
       color: #333;
     }
     header {
-      background-color: #111;
-      color: white;
-      padding: 20px;
+      background-color: #0d0d0d;
+      color: #fff;
+      padding: 30px 20px;
       text-align: center;
     }
     .hero {
-      padding: 50px 20px;
-      text-align: center;
       background: linear-gradient(135deg, #6a11cb, #2575fc);
       color: white;
+      text-align: center;
+      padding: 60px 20px;
     }
     .hero h1 {
       font-size: 48px;
@@ -29,81 +32,122 @@
     }
     .hero p {
       font-size: 20px;
+      margin: 0;
     }
     .cta {
-      margin-top: 30px;
+      margin-top: 25px;
     }
     .cta a {
-      background: white;
+      background: #fff;
       color: #2575fc;
-      padding: 12px 25px;
+      padding: 12px 30px;
       border-radius: 30px;
       text-decoration: none;
       font-weight: bold;
-      transition: 0.3s;
+      transition: background 0.3s ease;
     }
     .cta a:hover {
-      background: #dfe6e9;
+      background: #e0e0e0;
     }
     section {
-      padding: 40px 20px;
-      max-width: 900px;
+      padding: 50px 20px;
+      max-width: 1000px;
       margin: auto;
     }
-    .features h2 {
+    .features h2, #order h2 {
       text-align: center;
+      font-size: 32px;
       margin-bottom: 30px;
     }
     .feature {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
       margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .feature h3 {
+      margin: 0 0 10px 0;
+      font-size: 22px;
+      color: #2575fc;
+    }
+    .feature p {
+      margin: 0;
+      font-size: 16px;
+    }
+    .note {
+      text-align: center;
+      color: red;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    #order ol {
+      max-width: 600px;
+      margin: auto;
+      padding-left: 20px;
+      line-height: 1.8;
     }
     footer {
-      background: #222;
-      color: #aaa;
+      background: #111;
+      color: #bbb;
       text-align: center;
       padding: 20px;
       font-size: 14px;
+      margin-top: 40px;
+    }
+    a {
+      color: #2575fc;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>CustomStuffs.Official</h1>
-    <p>Personalized Digital Creations</p>
+    <p>Personalized Digital Creations Made for You</p>
   </header>
 
-  <div class="hero">
+  <section class="hero">
     <h1>Exclusive Digital Items</h1>
-    <p>Unique creations just for you – eBooks, Wallpapers, and Custom Stories!</p>
+    <p>Original eBooks, Wallpapers, Stories & More – Just the Way You Want</p>
     <div class="cta">
       <a href="#order">Order Now – Super Affordable</a>
     </div>
-  </div>
+  </section>
 
   <section class="features">
     <h2>Our Offerings</h2>
+
     <div class="feature">
-      <h3>Ebooks – ₹20</h3>
-      <p>Enjoy original ebooks tailored for readers like you.</p>
+      <h3>eBooks – ₹20</h3>
+      <p>Original stories and content in digital format tailored to your interest.</p>
     </div>
+
     <div class="feature">
       <h3>Custom Wallpapers – ₹10</h3>
-      <p>Get a one-of-a-kind wallpaper designed just for your device.</p>
+      <p>Personalized high-quality wallpapers crafted for your phone or desktop.</p>
     </div>
+
     <div class="feature">
       <h3>Custom Stories with Your Name – ₹10</h3>
-      <p>Be the hero in your own story. We’ll write it with your name!</p>
+      <p>Imagine yourself as the main character in a story written just for you.</p>
     </div>
-    <p style="text-align:center; color:red;"><strong>Note: You can't resell any of these digital items.</strong></p>
+
+    <div class="feature">
+      <h3>Custom Dressing Design – ₹70</h3>
+      <p>Send us your outfit idea or brand name we will create designs for you.</p>
+    </div>
+
+    <p class="note">Note: Reselling any of these digital items is strictly prohibited.</p>
   </section>
 
   <section id="order">
-    <h2 style="text-align:center;">How to Order</h2>
+    <h2>How to Order</h2>
     <ol>
-      <li>DM us on Instagram <strong>@CustomStuffs.Official</strong></li>
-      <li>Mention what you want (Ebook, Wallpaper, or Story) + your name (for stories)</li>
-      <li>Pay via <strong>PhonePe/GPay QR Scanner</strong> (details will be shared in chat)</li>
-      <li>Receive your custom item within 48 hours!</li>
+      <li>DM us on Instagram at <strong>@CustomStuffs.Official</strong></li>
+      <li>Mention the product you want (eBook, Wallpaper, Story, or Dressing Design) + your name (for stories)</li>
+      <li>Pay securely via <strong>PhonePe / GPay QR Scanner</strong> (QR code shared in DM)</li>
+      <li>Receive your custom digital item within 48 hours – guaranteed!</li>
     </ol>
   </section>
 
@@ -114,5 +158,6 @@
   <footer>
     &copy; 2025 CustomStuffs.Official – All rights reserved.
   </footer>
+
 </body>
 </html>
